@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-                                                                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0993e9"
 
     tools:context="com.example.yossatron.myapplication1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="What's your first name ?"
-        android:textSize="30dp"
-            android:textColor="#fff"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"
-        android:id="@+id/txt"/>
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="25dp"
-    android:hint="First Name"
-        android:layout_below="@+id/txt"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/edittxt"/>
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/edittxt"
-        android:background="@drawable/btn"
-        android:layout_centerHorizontal="true"
-        android:text="Next"
-        android:id="@+id/button"/>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contrainer">
+
+</FrameLayout>
 
 </RelativeLayout>
